@@ -8,7 +8,7 @@ from langchain.vectorstores import Chroma
 
 
 # === CONFIG ===
-DATA_DIR = "data/pro"               # Folder with .txt files
+DATA_DIR = "data"               # Folder with .txt files
 PERSIST_DIR = "chroma_nomic"        # ChromaDB directory
 CHUNK_SIZE = 1024                   # Chunk size for splitting
 CHUNK_OVERLAP = 128                 # Overlap between chunks
